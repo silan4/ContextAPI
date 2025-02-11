@@ -54,10 +54,6 @@ import { createContext , useState } from "react";
         value= {{basket,addToBasket,removeFromBasket}}
         >
             {children}
-
         </BasketContext.Provider>
     )
-
-
-
  }
